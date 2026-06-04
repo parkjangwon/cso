@@ -1,5 +1,7 @@
 # CSO Standalone Skill
 
+[![skills.sh](https://skills.sh/b/parkjangwon/cso)](https://skills.sh/parkjangwon/cso)
+
 Standalone Chief Security Officer security review skill adapted from the gstack
 CSO workflow.
 
@@ -17,7 +19,20 @@ It does not require gstack binaries, telemetry, routing, update checks, or
 
 ## Installation
 
-Copy `SKILL.md` into your agent skills directory under a `cso` folder.
+Install with the Skills CLI:
+
+```bash
+npx skills add parkjangwon/cso --skill cso
+```
+
+To install globally:
+
+```bash
+npx skills add parkjangwon/cso --skill cso --global
+```
+
+You can also copy `SKILL.md` manually into your agent skills directory under a
+`cso` folder.
 
 For Codex:
 
